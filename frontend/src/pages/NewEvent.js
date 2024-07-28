@@ -1,8 +1,9 @@
 import React from 'react'
+import EventForm from '../components/EventForm'
 
 const NewEvent = () => {
   return (
-    <div>NewEvent</div>
+    <EventForm method="post"/>
   )
 }
 
